@@ -1,6 +1,7 @@
 package com.example.ten;
-
 import static com.example.ten.R.id.anime_preview;
+import static com.example.ten.R.drawable;
+import static com.example.ten.R.string;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.widget.ImageView;
@@ -31,39 +32,21 @@ public class MainActivity extends AppCompatActivity {
         mainText = findViewById(R.id.mainText);
         animePreview = findViewById(anime_preview);
         random = new Random();
-
-        int[] imageResIds = {
-                R.drawable.nogame,
-                R.drawable.butler,
-                R.drawable.moriarty,
-                R.drawable.sherlock,
-                R.drawable.hunters,
-                R.drawable.assasion,
-                R.drawable.killing_love,
-                R.drawable.monolog,
-                R.drawable.heaven,
-                R.drawable.cremni,
-                R.drawable.hero,
-                R.drawable.friends,
-                R.drawable.spy,
+        showRandomAnime();
+    }
+    private void showRandomAnime() {
+        int[] imageResIds = {drawable.nogame, drawable.butler, drawable.moriarty, drawable.sherlock, drawable.hunters, drawable.assasion,
+                drawable.killing_love, drawable.monolog, drawable.heaven, drawable.cremni, drawable.hero, drawable.friends, drawable.spy,
         };
-
-        String[] animeNames = {
-                getString(R.string.text_001), getString(R.string.text_002),
-                getString(R.string.text_003), getString(R.string.text_004),
-                getString(R.string.text_005), getString(R.string.text_006),
-                getString(R.string.text_007), getString(R.string.text_008),
-                getString(R.string.text_009), getString(R.string.text_010),
-                getString(R.string.text_011), getString(R.string.text_012),
-                getString(R.string.text_013),
+        String[] animeNames = {getString(string.text_001), getString(string.text_002), getString(string.text_003), getString(string.text_004),
+                getString(string.text_005), getString(string.text_006), getString(string.text_007), getString(string.text_008), getString(string.text_009),
+                getString(string.text_010), getString(string.text_011), getString(string.text_012), getString(string.text_013),
         };
-
         mainText.setOnClickListener(v -> {
             int index = random.nextInt(animeNames.length);
             mainText.setText(animeNames[index]);
             animePreview.setImageResource(imageResIds[index]);
             mediaPlayer.start();
         });
-
     }
 }
