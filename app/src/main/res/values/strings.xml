@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ten</string>
+    <string name="main_text">Click me)</string>
+    <string name="text_001">No game, no life.</string>
+    <string name="text_002">The dark Butler.</string>
+    <string name="text_003">Moriarty\'s patriotism.</string>
+    <string name="text_004">Sherlock Holmes.</string>
+    <string name="text_005">Hunters X Hunters.</string>
+    <string name="text_006">The assassin class.</string>
+    <string name="text_007">Killing love.</string>
+    <string name="text_008"> The Pharmacist\'s Monologue</string>
+    <string name="text_009">The blessing of the celestials.</string>
+    <string name="text_010"> Silicon Valley.</string>
+    <string name="text_011">My hero academy.</string>
+    <string name="text_012">A game of friends.</string>
+    <string name="text_013">The spy\'s family.</string>
+</resources>

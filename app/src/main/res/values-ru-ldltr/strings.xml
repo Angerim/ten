@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ten</string>
+    <string name="main_text">Нажми на меня)</string>
+    <string name="text_001">Нет игры - нет жизни.</string>
+    <string name="text_002">Темный дворецкий.</string>
+    <string name="text_003">Патриотизм Мориарти.</string>
+    <string name="text_004">Шерлок Холмс.</string>
+    <string name="text_005">Охотники Х Охотники.</string>
+    <string name="text_006">Класс убийц.</string>
+    <string name="text_007">Убивающая любовь.</string>
+    <string name="text_008">Монолог Фармацевта.</string>
+    <string name="text_009">Благословление небожителей.</string>
+    <string name="text_010">Кремниевая долина.</string>
+    <string name="text_011">Моя геройская академия.</string>
+    <string name="text_012">Игра друзей.</string>
+    <string name="text_013">Семья шпиона.</string>
+
+</resources>
